@@ -1,9 +1,9 @@
 name: DynEcon
-version: 1.0-SNAPSHOT
+version: '1.0-SNAPSHOT'
 main: com.dynecon.dynecon.DynEcon
 api-version: '1.20'
 prefix: DynEcon
-author: PHNX LONELY
+author: PHNX
 description: Dynamic Economy Plugin
 commands:
   shop:
