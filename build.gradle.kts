@@ -17,9 +17,13 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
 }
 
-val targetJavaVersion = 21
+val targetJavaVersion = 17
 java {
     val javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion
     targetCompatibility = javaVersion
+}
+
+tasks.withType<JavaCompile> {
+    options.encoding = "UTF-8"
 }
